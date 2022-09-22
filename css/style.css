@@ -4,11 +4,21 @@ body {
     display: block;
 }
 
+.float{
+	display: block;
+	vertical-align: center;
+}
+
+.float > address, .float > p{
+	display: inline-block;
+	margin: 30px;
+}
+
 address {
     background-color: #757575;
     border: solid black 2px;
     font-style: normal;
-    display: inline-block;
+    
 }
 
 address strong {
@@ -31,4 +41,23 @@ main a{
 
 main a:visited{
 	color: green;
+}
+
+main ul{
+	list-style-type: none;
+}
+
+main ol{
+	list-style-type: upper-roman;
+}
+
+dd{
+	/*font-size: 0%;*/
+	display: none;
+}
+
+dt:hover + dd{
+	/*font-size: 100%;*/
+	display: block;
+	color: red;
 }
