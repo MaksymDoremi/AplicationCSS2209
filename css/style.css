@@ -1,5 +1,34 @@
-body{
-	margin: 0;
-	padding: 10px;
-	display: block;
+body {
+    margin: 0;
+    padding: 10px;
+    display: block;
+}
+
+address {
+    background-color: #757575;
+    border: solid black 2px;
+    font-style: normal;
+    display: inline-block;
+}
+
+address strong {
+    font-size: 125%;
+}
+
+main {
+    font-family: 'Roboto Mono', monospace;
+}
+
+main h1,
+main h2 {
+    text-align: center;
+    margin: 0;
+}
+
+main a{
+	text-decoration: none;
+}
+
+main a:visited{
+	color: green;
 }
